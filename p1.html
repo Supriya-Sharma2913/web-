@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <title> Fitness Gym </title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <style>
+            body{
+                color: white;
+                margin: 0px;
+                padding: 0px;
+                background: url('pp1.jpg');
+                
+            }
+            .left{
+                text-decoration: none;
+                position: absolute;
+                left: 34px;
+                top: 22px;
+                width: 150px;
+                display: inline-block;
+                border: 3px solid red;
+                padding: 10px;
+            }
+            .left div{
+                text-align:center;
+                line-height: 6px;
+                font-size:40px;
+            }
+            .left img{
+                background-color:white;
+                border: 2px solid navajowhite;
+                
+                width: 155px;
+                
+                /* filter: invert(100);invert function will change black image into white*/
+            }
+            .mid{
+                display: block;
+                width: 33%;
+                margin: 13px auto;
+                border: 3px solid yellow;
+            }
+            .right{
+                 position: absolute;
+                 right:54px;
+                 top: 36px;
+                display: inline-block;
+                
+                border: 3px solid green;
+            }
+            .navbar{
+                display:inline-block;
+            }
+            .navbar li{
+                display: inline-block;
+            }
+            .navbar li a{
+                color: blue;
+                text-decoration: none;
+                padding: 20px;
+                font-size: 15px;
+            }
+            .navbar li a:hover, nav li a:active{
+                text-decoration:underline;
+                color:gray;
+            }
+            .btn{
+                margin: 2px 20px;
+                color: white;
+                background-color: black;
+                padding: 4px 20px;
+                border: 2px solid gray;
+                border-radius: 10px;
+                font-size:medium;
+                cursor:pointer;
+            }
+            .btn:hover{
+                color: blue;
+                background-color: pink;
+                
+            }
+            .container{
+                display:block;
+                border: 3px solid whitesmoke;
+                
+                margin: 100px;
+                margin-top: 200px;
+                padding: 75px;
+                width: 50%;
+                border-radius: 4px;
+                
+            }
+            .formsgroup input{
+                
+                text-align: center;
+                display: block;
+                width: 380px;
+                padding:20px;
+                margin: 11px auto;
+                border-radius: 3px;
+                font-size:larger;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+            .formsgroup input:hover{
+                background-color:pink;
+                color: blue;
+            }
+            .container h1{
+                text-align:center;
+                color: blue;
+            }
+            /*.container:hover{
+                background-color:blanchedalmond;
+            }*/
+            .container button{
+                margin: auto;
+                width: 380px;
+                display: block;
+                
+                
+
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <!-- left box for logo mid for nav bar and right for buttons-->
+            <div class="left">
+                LEFT LOGO
+                <img src="logo img.jpg">
+                
+            </div>
+            <div class="mid">
+                
+                
+                <ul class="navbar">
+                    <li><a href="#" class="active"> NAME</a></li>
+                    <li><a href="#"> HOME</a></li>
+                    <li><a href ="#">Age </a></li>
+                    <li><a href ="#">Fitness level</a></li>
+                    <li><a href ="#">Contact </a></li>
+                </ul>
+            </div>
+            <div class=" right">
+                <button class="btn"> call us</button>
+                <button class="btn"> email us</button>
+
+            </div>
+        </header>
+        <div class="container">
+            <h1> Join the best GYM of INDIA</h1>
+            <form action="noaction.php">
+                <div class="formsgroup">
+                    <input type="text" name="" placeholder="Enter your name">
+                    <input type="text" name="" placeholder="Enter your age">
+                    <input type="text" name="" placeholder="Enter your weight">
+                    <input type="text" name="" placeholder="Enter your height">
+                </div>
+                <button class="btn"> submit  </button>
+            </form>
+        </div>
+
+    </body>
+
+</html>
+
+
